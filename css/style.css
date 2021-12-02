@@ -137,6 +137,10 @@ main .container .bottom-sec {
 
 /* Sezione Trova Partner */
 
+.partner-sec {
+    margin-bottom: 150px;
+}
+
 .partner-sec .partner-img {
     width: 50%;
     height: 450px;
@@ -153,4 +157,45 @@ main .container .bottom-sec {
     right: 0;
     margin: 40px 30px;
     background-color: rgb(12, 90, 116);
+}
+
+/* Sezione Operazioni DB */
+
+.operation-sec h1 {
+    background-color: rgb(73, 62, 143);
+    padding: 40px;
+    margin: 20px 0px;
+}
+
+.operation-img {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(44, 160, 44);
+}
+
+.operation-text {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(18, 65, 18);
+}
+
+.content-left {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.content-central {
+    width: 30%;
+    float: left;
+}
+
+.content-right {
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+}
+
+.second-row {
+    margin-top: 70px;
 }

@@ -86,6 +86,8 @@ header .nav-right {
     background-color: rgb(197, 127, 127);
 }
 
+/* Sezione Dropbox Business */
+
 main .container {
     margin-top: 100px;
 }
@@ -101,4 +103,27 @@ main .drop-bns-text span {
     padding: 20px;
     margin: 20px 0px;
     display: block;
+}
+
+.col-container .left-col {
+    float: left;
+    width: 30%;
+    height: 1000px;
+    margin-right: 5%;
+    background-color: rgb(47, 79, 79);
+}
+
+.col-container .center-col {
+    float: left;
+    width: 30%;
+    height: 1000px;
+    background-color: rgb(47, 79, 79);
+}
+
+.col-container .right-col {
+    float: left;
+    width: 30%;
+    height: 1000px;
+    margin-left: 5%;
+    background-color: rgb(47, 79, 79);
 }

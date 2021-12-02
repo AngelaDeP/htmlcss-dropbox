@@ -199,3 +199,118 @@ main .container .bottom-sec {
 .second-row {
     margin-top: 70px;
 }
+
+/* Sezione Team */
+
+.team-numbers-sec {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.team-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background-color: rgb(73, 62, 143);
+    padding: 40px;
+    margin: 20px 0px;
+}
+
+/* Sezione Loghi Aziende
+DA RIVEDERE, NON FUNZIONA CORRETTAMENTE */
+
+#logo-sec {
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(185, 185, 185);
+    background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    position: relative;
+}
+
+.logo-designit {
+    width: 251px;
+    height: 251px;
+    float: left;
+    top:0;
+    left: 0;
+    background-color: rgb(47, 163, 119);
+}
+
+.logo-arizona {
+    width: 251px;
+    height: 251px;
+    float: left;
+    top: 0;
+    left: 251px;
+    background-color: rgb(104, 20, 45);
+}
+
+.logo-hearst {
+    width: 251px;
+    height: 251px;
+    float: right;
+    top: 0;
+    right: 0;
+    background-color: rgb(184, 227, 247);
+}
+
+.logo-bicycle {
+    width: 251px;
+    height: 251px;
+    float: right;
+    top: 0;
+    right: 251px;
+    background-color: rgb(255, 0, 0);
+}
+
+.logo-florida {
+    width: 251px;
+    height: 251px;
+    float: left;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(8, 90, 214);
+}
+
+.logo-topps {
+    width: 251px;
+    height: 251px;
+    float: left;
+    bottom: 0;
+    left: 251px;
+    background-color: rgb(231, 111, 56);
+}
+
+.logo-lonely {
+    width: 251px;
+    height: 251px;
+    float: right;
+    bottom: 0;
+    right: 251px;
+    background-color: rgb(30, 0, 112);
+}
+
+.logo-channel {
+    width: 251px;
+    height: 251px;
+    float: right;
+    bottom: 0;
+    right: 0px;
+    background-color: rgb(251, 255, 42);
+}
+
+.logo-col-central {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    /*width: 516px;
+    height: 400px;*/
+    background-color: rgb(205, 92, 92);
+    overflow: auto;
+}

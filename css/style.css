@@ -82,7 +82,7 @@ header .nav-right {
     width: 53%;
     height: 400px;;
     right: 0;
-    bottom: -30px;
+    bottom: -40px;
     background-color: rgb(197, 127, 127);
 }
 
@@ -126,4 +126,31 @@ main .drop-bns-text span {
     height: 1000px;
     margin-left: 5%;
     background-color: rgb(47, 79, 79);
+}
+
+main .container .bottom-sec {
+    width: 100%;
+    height: 250px;
+    margin: 50px 0px 150px 0px;
+    background-color: rgb(47, 79, 79);
+}
+
+/* Sezione Trova Partner */
+
+.partner-sec .partner-img {
+    width: 50%;
+    height: 450px;
+    margin-left: 20px;
+    background-color: rgb(0, 159, 212);
+    float: left;
+}
+
+.partner-sec .partner-text {
+    width: 40%;
+    height: 250px;
+    float: right;
+    top: 0;
+    right: 0;
+    margin: 40px 30px;
+    background-color: rgb(12, 90, 116);
 }

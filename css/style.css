@@ -42,7 +42,6 @@ header .nav-left {
 }
 
 header .nav-right {
-    display: inline-block;
     float: right;
     width: 40%;
     height: 80px;
@@ -218,101 +217,28 @@ main .container .bottom-sec {
     margin: 20px 0px;
 }
 
-/* Sezione Loghi Aziende
-DA RIVEDERE, NON FUNZIONA CORRETTAMENTE */
+/* Sezione Loghi Aziende */
 
 #logo-sec {
     width: 100%;
-    height: 70vh;
+    height: 30vw;
     background-color: rgb(185, 185, 185);
-    background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
     position: relative;
 }
 
-.logo-designit {
-    width: 251px;
-    height: 251px;
+.col-side {
+    background-color: rgb(224, 182, 127);
+    width: 30vw;
+    height: 30vw;
     float: left;
-    top:0;
-    left: 0;
-    background-color: rgb(47, 163, 119);
 }
 
-.logo-arizona {
-    width: 251px;
-    height: 251px;
+.col-center {
+    background-color: rgb(179, 112, 24);
+    width: calc(100% - 60vw);
+    height: 30vw;
     float: left;
-    top: 0;
-    left: 251px;
-    background-color: rgb(104, 20, 45);
-}
-
-.logo-hearst {
-    width: 251px;
-    height: 251px;
-    float: right;
-    top: 0;
-    right: 0;
-    background-color: rgb(184, 227, 247);
-}
-
-.logo-bicycle {
-    width: 251px;
-    height: 251px;
-    float: right;
-    top: 0;
-    right: 251px;
-    background-color: rgb(255, 0, 0);
-}
-
-.logo-florida {
-    width: 251px;
-    height: 251px;
-    float: left;
-    bottom: 0;
-    left: 0;
-    background-color: rgb(8, 90, 214);
-}
-
-.logo-topps {
-    width: 251px;
-    height: 251px;
-    float: left;
-    bottom: 0;
-    left: 251px;
-    background-color: rgb(231, 111, 56);
-}
-
-.logo-lonely {
-    width: 251px;
-    height: 251px;
-    float: right;
-    bottom: 0;
-    right: 251px;
-    background-color: rgb(30, 0, 112);
-}
-
-.logo-channel {
-    width: 251px;
-    height: 251px;
-    float: right;
-    bottom: 0;
-    right: 0px;
-    background-color: rgb(251, 255, 42);
-}
-
-.logo-col-central {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%,-50%);
-    /*width: 516px;
-    height: 400px;*/
-    background-color: rgb(205, 92, 92);
-    overflow: auto;
+    overflow-y: auto;
 }
 
 /* Sezione Free Trial */
@@ -339,4 +265,49 @@ DA RIVEDERE, NON FUNZIONA CORRETTAMENTE */
     float: right;
     height: 100px;
     margin: 100px 0;
+}
+
+/* Sezione domande */
+
+#domande-frequenti {
+    width: 100%;
+    height: 700px;
+}
+
+.zona-bordata {
+    width: 100%;
+    height: 700px;
+    border: 1px solid black;
+}
+
+/* Sezione footer */
+
+footer {
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+    background-color: rgb(49, 49, 49);
+}
+
+.footer-col {
+    width: 15%;
+    height: 250px;
+    background-color: blanchedalmond;
+    float: left;
+    top: 20px;
+}
+
+.footer-language {
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 100px;
+    margin: 40px 0px;
+}
+
+.m-1r {
+    margin-right: 5%;
+}
+
+.m-1l {
+    margin-left: 20px;
 }

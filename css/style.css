@@ -393,9 +393,12 @@ main .smaller-container .bottom-sec {
     bottom: 0;
     left: 0;
     width: 50%;
-    background-color: rgb(73, 62, 143);
-    padding: 40px;
     margin: 20px 0px;
+}
+
+.team-text h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
 }
 
 /* Sezione Loghi Aziende */

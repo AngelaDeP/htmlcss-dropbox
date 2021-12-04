@@ -342,21 +342,21 @@ main .smaller-container .bottom-sec {
 /* Sezione Operazioni DB */
 
 .operation-sec h1 {
-    background-color: rgb(73, 62, 143);
-    padding: 40px;
-    margin: 20px 0px;
+    font-size: 45px;
+    margin: 45px 0px;
 }
 
-.operation-img {
+.operation-img img {
     width: 100%;
-    height: 200px;
-    background-color: rgb(44, 160, 44);
+    height: auto;
 }
 
 .operation-text {
     width: 100%;
-    height: 200px;
-    background-color: rgb(18, 65, 18);
+}
+
+.operation-text h2 {
+    margin-bottom: 20px;
 }
 
 .content-left {

@@ -22,6 +22,12 @@ html {
     position: relative;
 }
 
+.smaller-container {
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
 .blue-btn a {
     background-color: #0061ff;
     color: #fff;
@@ -137,20 +143,37 @@ header .nav-right li {
 /* Sezione Dropbox Business */
 
 .business-sec {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 main .drop-bns-text h1 {
-    background-color: rgb(73, 62, 143);
-    padding: 40px;
-    margin: 20px 0px;
+    font-size: 45px;
+    margin: 40px 0px;
 }
 
-main .drop-bns-text span {
-    background-color: rgb(101, 95, 139);
-    padding: 20px;
-    margin: 20px 0px;
+main .drop-bns-text .checkboxes {
+    line-height: 60px;
     display: block;
+    margin-bottom: 20px;
+}
+
+.drop-bns-text .checkboxes .blue-dot {
+    border: 5px solid #0061ff;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.drop-bns-text .checkboxes .empty-dot {
+    border: 1px solid #929292;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .col-container .left-col {
@@ -176,7 +199,7 @@ main .drop-bns-text span {
     background-color: rgb(47, 79, 79);
 }
 
-main .container .bottom-sec {
+main .smaller-container .bottom-sec {
     width: 100%;
     height: 250px;
     margin: 50px 0px 150px 0px;

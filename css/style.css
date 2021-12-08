@@ -69,8 +69,46 @@ html {
     background-color: rgb(231, 231, 231);
 }
 
+.h-back-color a:hover {
+    background-color: rgb(231, 231, 231);
+    border: none;
+    width: 100%;
+    height: auto;
+}
+
 .h-line a:hover {
     text-decoration: underline;
+}
+
+/* Regole Bonus Sottomenù */
+
+.sub-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    background-color: #fff;
+    width: 240px;
+    height: auto;
+}
+
+header .sub-menu li a {
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    height: auto;
+}
+
+header .sub-menu li {
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+
+.h-sub-menu:hover .sub-menu {
+    display: block;
+    position: absolute;
+    z-index:4;
 }
 
 /* Parte header */
